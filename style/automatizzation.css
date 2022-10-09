@@ -1,0 +1,147 @@
+.automatization {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 159px;
+  align-items: center;
+}
+
+.automatization__boundary {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.automatization__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 113px 0px 102px;
+}
+
+.automatization__title {
+  color: #2F4D6A;
+  margin-bottom: 32px;
+}
+
+.automatization__subtitle {
+  color: #2F4D6A;
+  margin-bottom: 99px;
+}
+
+.automatization__item {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.automatization__item-link {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.automatization__circle {
+  background: #329CCA;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.automatization__number {
+  z-index: 2;
+  margin-bottom: 24px;
+  color: white;
+  padding: 8px 13px;
+  border: 5px solid #F0F0F0;
+  border-radius: 50%;
+  background: #329CCA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.automatization__text {
+  padding: 0 45px;
+  color: #2F4D6A;
+  text-align: center;
+}
+
+.automatization__line {
+  background: #C5E6F4;
+  margin-top: 120px;
+  width: 63%;
+  height: 3px;
+  position: absolute;
+  max-width: 900px;
+}
+
+@media screen and (max-width: 800px) {
+  .automatization {
+    margin-bottom: 100px;
+  }
+  .automatization__subtitle {
+    margin-bottom: 60px;
+  }
+  .automatization__line {
+    margin-top: 90px;
+    width: 73%;
+  }
+  .automatization__text {
+    padding: 0;
+  }
+  .automatization__wrapper {
+    padding: 0px 20px;
+  }
+  .automatization__circle {
+    width: 60px;
+  }
+  .automatization__number {
+    padding: 4px 9px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .automatization {
+    margin-bottom: 50px;
+  }
+  .automatization__item {
+    flex-wrap: wrap;
+  }
+  .automatization__item-link {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .automatization__text {
+    padding: 0 30px;
+  }
+  .automatization__subtitle {
+    margin-bottom: 30px;
+  }
+  .automatization__circle {
+    width: 60px;
+  }
+  .automatization__line-last {
+    margin-top: 288px !important;
+  }
+  .automatization__line {
+    margin-top: 90px;
+    width: 50%;
+  }
+  .automatization__title {
+    margin-bottom: 0;
+  }
+  .automatization__number {
+    border: 2px solid #F0F0F0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .automatization__line-last {
+    margin-top: 308px !important;
+  }
+}

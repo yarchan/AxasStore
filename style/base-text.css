@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap");
+@font-face {
+  font-family: 'Arial-light';
+  src: url(../fonts/ofont.ru_ArialB.ttf);
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url(../fonts/ofont.ru_Impact.ttf);
+}
+
+.base-background {
+  background: #329CCA;
+}
+
+.base-text-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.53px;
+  font-family: 'Arial-bold',sans-serif;
+}
+
+.base-text-subtitle {
+  font-size: 32px;
+  line-height: 44.65px;
+  font-family: 'Arial-bold',sans-serif;
+  font-weight: 700;
+}
+
+.base-text-text {
+  font-size: 24px;
+  line-height: 27.6px;
+  font-family: 'Arial-light',sans-serif;
+}
+
+.base-text-subtext {
+  font-size: 20px;
+  line-height: 24.8px;
+  font-family: 'Arial-light',sans-serif;
+}
+
+.base-text-mini-text {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Arial-light',sans-serif;
+}
+
+.categories-title {
+  font-size: 28px;
+  line-height: 32px;
+  font-family: 'Arial-bold',sans-serif;
+  font-weight: 700;
+}
+
+.categories-text {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Arial-light',sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+  .base-text-title {
+    font-size: 40px;
+    line-height: 59.53px;
+    font-family: 'Arial-bold',sans-serif;
+  }
+  .base-text-subtitle {
+    font-size: 28px;
+    line-height: 44.65px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-text {
+    font-size: 20px;
+    line-height: 27.6px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-subtext {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-mini-text {
+    font-size: 15px;
+    line-height: 14px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .categories-title {
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Arial-bold',sans-serif;
+    font-weight: 700;
+  }
+  .categories-text {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Arial-light',sans-serif;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .base-text-title {
+    font-size: 32px;
+    line-height: 35.53px;
+    font-family: 'Arial-bold',sans-serif;
+  }
+  .base-text-subtitle {
+    font-size: 24px;
+    line-height: 27.65px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-text {
+    font-size: 18px;
+    line-height: 22.6px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-subtext {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .categories-title {
+    font-size: 22px;
+    line-height: 24px;
+    font-family: 'Arial-bold',sans-serif;
+    font-weight: 700;
+  }
+  .categories-text {
+    font-size: 11px;
+    line-height: 13px;
+    font-family: 'Arial-light',sans-serif;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .base-text-title {
+    font-size: 28px;
+    line-height: 35.53px;
+    font-family: 'Arial-bold',sans-serif;
+  }
+  .base-text-subtitle {
+    font-size: 18px;
+    line-height: 27.65px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-text {
+    font-size: 14px;
+    line-height: 22.6px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .base-text-subtext {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Arial-light',sans-serif;
+  }
+  .categories-title {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Arial-bold',sans-serif;
+    font-weight: 700;
+  }
+  .categories-text {
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Arial-light',sans-serif;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/start.css" />
+    <link rel="stylesheet" href="./style/base-text.css" />
+    <link rel="stylesheet" href="./style/automatizzation.css" />
+    <link rel="stylesheet" href="./style/trivia.css" />
+    <link rel="stylesheet" href="./style/perfect.css" />
+    <link rel="stylesheet" href="./style/why.css" />
+    <link rel="stylesheet" href="./style/grow.css" />
+    <link rel="stylesheet" href="./style/whant.css" />
+    <link rel="stylesheet" href="./style/conection.css" />
+    <link rel="stylesheet" href="./style/rates.css" />
+    <link rel="stylesheet" href="./style/categories.css" />
+    <link rel="stylesheet" href="style/questions.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>AxasStore</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__boundered">
+        <div class="header__wrapper">
+          <div id="header-top" class="header__top">
+            <div class="header__logo">
+              <a href="#start" class="anchor-top"> <img src="./assets/axas.png" class="header__logo-img" /></a>
+              <div id="header-drop-btn" class="header__drop">
+                <div class="header__drop-item text-header-top">РЕСУРСЫ</div>
+                <div id="header-drop" class="header__drop-item">
+                  <svg
+                    width="18"
+                    height="10"
+                    viewBox="0 0 18 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path class="header-drop-svg" d="M1 1L9 9L17 1" stroke="#329CCA" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="header__log">
+              <div class="header-enter text-header-top">ВХОД</div>
+              <div class="header-join text-header-top">ПРИСОЕДИНИТЬСЯ</div>
+            </div>
+          </div>
+          <div id="header-bottom" class="header__bottom">
+            <div class="header__bottom-controls">
+              <div class="header__bottom-controls_item"><a href="#automatization" class="anchor-top"> возможности</a></div>
+              <div class="header__bottom-controls_item"><a href="#footer" class="anchor-top"> Контакты</a></div>
+            </div>
+            <div class="header__bottom-messangers">
+              <div class="header__bottom-messangers_item">
+                <svg class="svg-size" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path class="top-svg" d="M20.911 0h-9.823c-8.964 0-11.089 2.125-11.089 11.089v9.823c0 8.964 2.125 11.089 11.089 11.089h9.823c8.964 0 11.089-2.125 11.089-11.089v-9.823c0-8.964-2.146-11.089-11.089-11.089zM25.833 22.828h-2.323c-0.88 0-1.151-0.698-2.734-2.302-1.375-1.333-1.984-1.51-2.323-1.51-0.479 0-0.615 0.135-0.615 0.792v2.099c0 0.563-0.177 0.901-1.667 0.901-2.464 0-5.198-1.49-7.115-4.266-2.891-4.068-3.682-7.115-3.682-7.745 0-0.339 0.135-0.656 0.786-0.656h2.328c0.589 0 0.813 0.271 1.042 0.901 1.151 3.323 3.068 6.234 3.859 6.234 0.292 0 0.427-0.135 0.427-0.88v-3.432c-0.089-1.583-0.922-1.719-0.922-2.281 0-0.271 0.224-0.542 0.583-0.542h3.661c0.495 0 0.677 0.271 0.677 0.854v4.63c0 0.5 0.224 0.677 0.359 0.677 0.292 0 0.542-0.177 1.083-0.719 1.672-1.875 2.87-4.766 2.87-4.766 0.156-0.339 0.427-0.656 1.016-0.656h2.328c0.698 0 0.854 0.359 0.698 0.859-0.292 1.354-3.141 5.375-3.141 5.375-0.245 0.406-0.339 0.583 0 1.036 0.25 0.339 1.063 1.042 1.604 1.672 0.995 1.13 1.76 2.078 1.964 2.734 0.229 0.651-0.109 0.99-0.766 0.99z"/>
+                </svg>
+              </div>
+              <div class="header__bottom-messangers_item">
+                <svg class="svg-size" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path class="top-svg" d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+                </svg>
+              </div>
+              <div class="header__bottom-messangers_item">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="svg-size-whats" viewBox="0 0 32 32">
+                 <path class="top-svg" d="M23.479 8.434c-1.998-2.002-4.652-3.101-7.481-3.101-5.831 0-10.574 4.743-10.574 10.57-0.004 1.865 0.484 3.685 1.41 5.285l-1.501 5.479 5.608-1.472c1.543 0.844 3.283 1.286 5.053 1.29h0.004c5.827 0 10.57-4.743 10.574-10.574 0-2.824-1.096-5.479-3.093-7.477zM21.171 19.682c-0.219 0.616-1.298 1.212-1.782 1.253-0.488 0.045-0.943 0.219-3.172-0.657-2.688-1.058-4.383-3.813-4.516-3.99-0.133-0.174-1.075-1.431-1.075-2.73 0-1.303 0.682-1.94 0.922-2.204 0.244-0.264 0.53-0.331 0.707-0.331 0.174 0 0.352 0 0.504 0.008 0.191 0.004 0.397 0.017 0.595 0.455 0.236 0.521 0.749 1.828 0.815 1.96s0.112 0.29 0.021 0.463c-0.087 0.178-0.133 0.285-0.26 0.442-0.133 0.153-0.277 0.343-0.397 0.459-0.133 0.133-0.269 0.277-0.116 0.541s0.682 1.129 1.468 1.828c1.009 0.901 1.861 1.178 2.125 1.311s0.418 0.112 0.571-0.066c0.157-0.174 0.661-0.769 0.839-1.034 0.174-0.264 0.352-0.219 0.591-0.133 0.244 0.087 1.543 0.728 1.807 0.86s0.438 0.198 0.504 0.306c0.066 0.112 0.066 0.641-0.153 1.257l0.002 0.002z"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="start" class="start">
+      <div class="start__boundered">
+        <div class="start__wrapper">
+          <div class="start__block">
+            <div class="start__title base-text-title">Быстрый старт:</div>
+            <div class="start__subtitle base-text-subtitle">
+              Запуск доставки за 5 дней!
+            </div>
+            <div class="start__btn base-text-text">НАЧАТЬ</div>
+          </div>
+          <div class="start__block">
+            <img src="./assets/start-elipse.png" class="start__img" />
+            <img src="./assets/start-phone.png" class="start__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="automatization" class="automatization">
+      <div class="automatization__boundary">
+        <div class="automatization__wrapper">
+          <div class="automatization__title base-text-subtitle">
+            Автоматизация бизнеса - это легко!
+          </div>
+          <div class="automatization__subtitle base-text-subtext">
+            Поручите работу с доставкой технологиям, а не сотрудникам
+          </div>
+          <ul class="automatization__item">
+            <div class="automatization__line"></div>
+            <li class="automatization__item-link">
+              <img
+                src="./assets/automatization-iphone.png"
+                class="automatization__circle"
+              />
+              <div class="automatization__number">1</div>
+              <div class="automatization__text base-text-subtext">
+                Мобильное приложение для iOS и Android
+              </div>
+            </li>
+            <li class="automatization__item-link">
+              <img
+                src="./assets/automatization-finger.png"
+                class="automatization__circle"
+              />
+              <div class="automatization__number">2</div>
+              <div class="automatization__text base-text-subtext">
+                Адаптация под корпоративный стиль
+              </div>
+            </li>
+            <div class="automatization__line automatization__line-last "></div>
+            <li class="automatization__item-link">
+              <img
+                src="./assets/automatization-machin.png"
+                class="automatization__circle"
+              />
+              <div class="automatization__number">3</div>
+              <div class="automatization__text base-text-subtext">
+                Удобная панель управления
+              </div>
+            </li>
+            <li class="automatization__item-link">
+              <img
+                src="./assets/automatization-grow.png"
+                class="automatization__circle"
+              />
+              <div class="automatization__number">4</div>
+              <div class="automatization__text base-text-subtext">
+                Инструменты для продвижения бизнеса
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="trivia">
+      <div class="trivia__boundered">
+        <div class="trivia__wrapper">
+          <div class="trivia__block">
+            <div class="trivia__img">
+              <img src="./assets/trivia-iphone.png" />
+            </div>
+            <div class="trivia__description">
+              <div class="trivia__title base-text-subtitle">
+                Ваше мобильное приложение продуманно до мелочей!
+              </div>
+              <ul class="trivia__item">
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Учтены все ваши скидки и акции, продумано начисление бонусов
+                  </div>
+                </li>
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Подключаем все виды онлайн-оплаты
+                  </div>
+                </li>
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Бесплатная отправка уведомлений
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="trivia__block">
+            <div class="trivia__description trivia-second-block">
+              <div class="trivia__title base-text-subtitle">
+                Адаптация под корпоративный стиль
+              </div>
+              <div class="trivia__subtitle base-text-text">
+                Идеальное решение — для компаний, у которых всё настроено
+                по-своему
+              </div>
+            </div>
+            <div class="trivia__img">
+              <img src="./assets/trivia-men.png" />
+            </div>
+          </div>
+          <div class="trivia__block">
+            <div class="trivia__img">
+              <img src="./assets/trivia-mac.png" />
+            </div>
+            <div class="trivia__description">
+              <div class="trivia__title base-text-subtitle">
+                Удобная веб-панель управления
+              </div>
+              <ul class="trivia__item">
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Возможность назначения ролей и прав доступа
+                  </div>
+                </li>
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Автоматическая синхронизация карточек товаров, позиций,
+                    стоп-листов
+                  </div>
+                </li>
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Просмотр всех заказов между стоком и кухней, администратором
+                    и курьером
+                  </div>
+                </li>
+                <li class="trivia__item-link">
+                  <div class="trivia__check">
+                    <img src="./assets/check.svg" />
+                  </div>
+                  <div class="trivia__text base-text-text">
+                    Быстрый приём и обработка заказов
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <div class="why__boundered">
+        <div class="why__wrapper">
+          <div class="why__title base-text-subtitle">
+            Почему стоит выбрать нас?
+          </div>
+          <div class="why__block">
+            <div class="why__line"></div>
+            <div class="why__item">
+              <div class="why__item-link">
+                <img src="./assets/why-magnifer.png" class="why__img" />
+                <div class="why__subtitle base-text-subtitle">Анализ</div>
+                <div class="why__description base-text-subtext">
+                  Тщательно анализируем потребности каждого клиента и
+                  разрабатываем оптимальную схему работы
+                </div>
+              </div>
+              <div class="why__item-link">
+                <img src="./assets/why-drawings.png" class="why__img" />
+                <div class="why__subtitle base-text-subtitle">Проект</div>
+                <div class="why__description base-text-subtext">
+                  Вы получаете оптимальный набор услуг, абсолютно ничего
+                  лишнего. Мы подскажем, где можно сэкономить, или ускорить
+                  процессы
+                </div>
+              </div>
+              <div class="why__item-link">
+                <img src="./assets/why-development.png" class="why__img" />
+                <div class="why__subtitle base-text-subtitle">Анализ</div>
+                <div class="why__description base-text-subtext">
+                  Запустив доставку, вы получаете увелечение прибыли на рост и
+                  развитие вашего бизнеса.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grow">
+      <div class="grow__boundered">
+        <div class="grow__wrapper">
+          <div class="grow__title base-text-subtitle">
+            Рост выручки за счёт новых покупателей
+          </div>
+          <div class="grow__block">
+            <div class="grow__block-content">
+              <div class="grow__subtitle base-text-text">
+                Возможность удержания спящих клиентов
+              </div>
+              <ul class="grow__item base-text-text">
+                <li class="grow__item-link">
+                  <div class="grow__point"></div>
+                  <div class="grow__text">
+                    Принимайте заказы из различных источников
+                  </div>
+                </li>
+                <li class="grow__item-link">
+                  <div class="grow__point"></div>
+                  <div class="grow__text">Формируйте клиентскую базу</div>
+                </li>
+                <li class="grow__item-link">
+                  <div class="grow__point"></div>
+                  <div class="grow__text">Получайте детальную статистику</div>
+                </li>
+                <li class="grow__item-link">
+                  <div class="grow__point"></div>
+                  <div class="grow__text">
+                    Оформляйте заказы онлайн в Вашем собственном мобильном
+                    приложении
+                  </div>
+                </li>
+                <li class="grow__item-link">
+                  <div class="grow__point"></div>
+                  <div class="grow__text">
+                    Возвращайте покупателей и формируйте у них привычку покупать
+                    в один клик!
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="grow__img">
+              <img src="./assets/grow-men.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="perfect">
+      <div class="perfect__bondered">
+        <div class="perfect__wrapper">
+          <div class="base-text-title perfect__title base-color-blue">
+            Идеально для Вашего бизнеса
+          </div>
+          <div class="perfect__blocks">
+            <div class="perfect-block base-background mr">
+              <div class="perfect-block__left">
+                <div class="base-text-for-block base-color-white">
+                  Рестораны и кафе, HoReCa
+                </div>
+              </div>
+              <img
+                class="perfect-block__right"
+                src="./assets/perfect-content-food.png"
+              />
+            </div>
+            <div class="perfect-block base-background">
+              <div class="perfect-block__left">
+                <div class="base-text-for-block base-color-white">
+                  Цветочные магазины
+                </div>
+              </div>
+              <img
+                class="perfect-block__right"
+                src="./assets/perfect-content-flower.png"
+              />
+            </div>
+            <div class="perfect-block base-background mr">
+              <div class="perfect-block__left">
+                <div class="base-text-for-block base-color-white ">
+                  Бутики и интернет магазины
+                </div>
+              </div>
+              <img
+                class="perfect-block__right"
+                src="./assets/perfect-content-closer.png"
+              />
+            </div>
+            <div class="perfect-block base-background">
+              <div class="perfect-block__left">
+                <div class="base-text-for-block base-color-white">
+                  Аптеки и медицинские товары
+                </div>
+              </div>
+              <img
+                class="perfect-block__right"
+                src="./assets/perfect-content-peper.png"
+                alt=""
+              />
+            </div>
+            <div class="perfect-block base-background mr">
+              <div class="perfect-block__left">
+                <div class="base-text-for-block base-color-white">Retail</div>
+              </div>
+              <img
+                class="perfect-block__right"
+                src="./assets/perfect-content-vegetables.png"
+                alt=""
+              />
+            </div>
+            <div class="perfect-block perfect-block-last">
+              <div class="base-text-text perfect-last-text">
+                Не нашли свой бизнес?
+              </div>
+              <div
+                class="perfect-btn base-color-white base-text-text base-background"
+              >
+                Получить предложение
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="whant">
+      <div class="whant__boundered">
+        <div class="whant__wrapper">
+          <div class="whant__description">
+            <div class="whant__title base-text-subtitle">Уже хочу!</div>
+            <div class="whant__title base-text-subtitle">
+              Сколько это стоит?
+            </div>
+            <div class="whant__subtitle base-text-text">
+              Вы получаете все возможности нашей системы и платите только за
+              фактически получение заказы!
+            </div>
+            <div class="whant__subtitle base-text-text">
+              Наша команда напрямую заинтересованна в Вашей прибыли и
+              предоставляет все Инструменты для быстрого старта!
+            </div>
+          </div>
+          <div class="whant__img">
+            <img src="./assets/whant-iphone.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="conection">
+      <div class="conection__boundered">
+        <div class="conection__wrapper">
+          <div class="conection__title base-text-subtitle">
+            Подключение к системе
+          </div>
+          <div class="conection__subtitle base-text-text">
+            Используйте больше возможностей сервисапо мере роста вашего бизнеса
+          </div>
+          <div class="conection__block">
+            <div class="conection__block-title base-text-text">ЗАПУСК</div>
+            <div class="conection__block-cost base-text-subtitle">10 000 ₽</div>
+            <div class="conection__block-description base-text-mini-text">
+              Первичное подключение к нашей системе. Дальнейшая оплата
+              происходит в соответствии с Вашим тарифом.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rates">
+      <div class="rates__boundered">
+        <div class="rates__wrapper">
+          <div class="rates__title base-text-subtitle">Тарифы</div>
+          <div class="rates__item">
+            <div id="rates-selector" class="rates__selector"></div>
+            <div class="rates__item-link base-text-text active">1 месяц</div>
+            <div class="rates__item-link base-text-text">6 месяцев</div>
+            <div class="rates__item-link base-text-text">12 месяцев</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="categories__boundered">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="categories__triangle"></div>
+              <div class="categories__card">
+                <div class="categories__card-top">
+                  <div class="categories__title categories-title">Standart</div>
+                  <hr class="categories__hr-top" />
+                  <div id="standartCost" class="categories__cost base-text-text">
+                    19 900 ₽
+                  </div>
+                  <div class="categories__item-top">
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Количество товаров</div>
+                      <div class="categories-text categories__number">
+                        < 100
+                      </div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Количество магазинов</div>
+                      <div class="categories-text categories__number">1</div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Акции</div>
+                      <div class="categories-text categories__number">3</div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Смена интерфейса</div>
+                      <div class="categories-text categories__number">1</div>
+                    </div>
+                  </div>
+                  <div class="categories__item-bottom">
+                    <div class="categories__item-bottom-link">
+                      <img
+                        src="./assets/check.svg"
+                        alt=""
+                        class="categories__check"
+                      />
+                      <div class="categories__text categories-text">
+                        Уведомления пользователей
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img
+                        src="./assets/check.svg"
+                        alt=""
+                        class="categories__check"
+                      />
+                      <div class="categories__text categories-text">
+                        Выгрузка отчета по продажам
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img
+                        src="./assets/check.svg"
+                        alt=""
+                        class="categories__check"
+                      />
+                      <div class="categories__text categories-text">
+                        История покупок
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img
+                        src="./assets/check.svg"
+                        alt=""
+                        class="categories__check"
+                      />
+                      <div class="categories__text categories-text">
+                        Online-оплата
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="categories__card-bottom">
+                  <hr class="categories__hr-bottom" />
+                  <div class="categories__btn base-text-subtext">ЗАКАЗАТЬ</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories__card">
+                <div class="categories__card-top">
+                  <div class="categories__title categories-title">Premium</div>
+                  <hr class="categories__hr-top" />
+                  <div id="premiumCost" class="categories__cost base-text-text">
+                    39 900 ₽
+                  </div>
+                  <div class="categories__item-top">
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Количество товаров</div>
+                      <div class="categories-text categories__number">
+                        < 1000
+                      </div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Количество магазинов</div>
+                      <div class="categories-text categories__number">5</div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Акции</div>
+                      <div class="categories-text categories__number">15</div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Смена интерфейса</div>
+                      <div class="categories-text categories__number">1</div>
+                    </div>
+                  </div>
+                  <div class="categories__item-bottom">
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Уведомления пользователей
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Выгрузка отчета по продажам
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        История покупок
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Online-оплата
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Отзывы
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Рейтинг товаров
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Интеграция с EPR системами
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Статистика продаж
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="categories__card-bottom">
+                  <hr class="categories__hr-bottom" />
+                  <div class="categories__btn base-text-subtext">ЗАКАЗАТЬ</div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories__triangle-last"></div>
+              <div class="categories__card">
+                <div class="categories__card-top">
+                  <div class="categories__title categories-title">Ultra</div>
+                  <hr class="categories__hr-top" />
+                  <div id="ultraCost" class="categories__cost base-text-text">
+                    59 900 ₽
+                  </div>
+                  <div class="categories__item-top">
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Количество товаров</div>
+                      <div class="categories-text categories__number">
+                        8
+                      </div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Количество магазинов</div>
+                      <div class="categories-text categories__number">8</div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Акции</div>
+                      <div class="categories-text categories__number">8</div>
+                    </div>
+                    <div class="categories__item-top-link">
+                      <div class="categories-text">Смена интерфейса</div>
+                      <div class="categories-text categories__number">8</div>
+                    </div>
+                  </div>
+                  <div class="categories__item-bottom">
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Уведомления пользователей
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Выгрузка отчета по продажам
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        История покупок
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Online-оплата
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Отзывы
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Рейтинг товаров
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Интеграция с EPR системами
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Статистика продаж
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Смена интерфейса карточки товара
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Смена цветов и стилей приложения
+                      </div>
+                    </div>
+                    <div class="categories__item-bottom-link">
+                      <img src="./assets/check.svg" class="categories__check" />
+                      <div class="categories__text categories-text">
+                        Кэшбек
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="categories__card-bottom">
+                  <hr class="categories__hr-bottom" />
+                  <div class="categories__btn base-text-subtext">ЗАКАЗАТЬ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="questions__boundered">
+        <img src="./assets/question-women.png" alt="" class="questions__img">
+        <div class="questions__wrapper">
+          <div class="questions__title base-text-subtitle">
+            Остались вопросы?
+          </div>
+          <div class="questions__btn base-text-text">
+            Связаться
+          </div>
+          <div class="questions__messanger">
+            <div class="questions__messanger-item">
+              <svg class="svg-size" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path class="bottom-svg" d="M20.911 0h-9.823c-8.964 0-11.089 2.125-11.089 11.089v9.823c0 8.964 2.125 11.089 11.089 11.089h9.823c8.964 0 11.089-2.125 11.089-11.089v-9.823c0-8.964-2.146-11.089-11.089-11.089zM25.833 22.828h-2.323c-0.88 0-1.151-0.698-2.734-2.302-1.375-1.333-1.984-1.51-2.323-1.51-0.479 0-0.615 0.135-0.615 0.792v2.099c0 0.563-0.177 0.901-1.667 0.901-2.464 0-5.198-1.49-7.115-4.266-2.891-4.068-3.682-7.115-3.682-7.745 0-0.339 0.135-0.656 0.786-0.656h2.328c0.589 0 0.813 0.271 1.042 0.901 1.151 3.323 3.068 6.234 3.859 6.234 0.292 0 0.427-0.135 0.427-0.88v-3.432c-0.089-1.583-0.922-1.719-0.922-2.281 0-0.271 0.224-0.542 0.583-0.542h3.661c0.495 0 0.677 0.271 0.677 0.854v4.63c0 0.5 0.224 0.677 0.359 0.677 0.292 0 0.542-0.177 1.083-0.719 1.672-1.875 2.87-4.766 2.87-4.766 0.156-0.339 0.427-0.656 1.016-0.656h2.328c0.698 0 0.854 0.359 0.698 0.859-0.292 1.354-3.141 5.375-3.141 5.375-0.245 0.406-0.339 0.583 0 1.036 0.25 0.339 1.063 1.042 1.604 1.672 0.995 1.13 1.76 2.078 1.964 2.734 0.229 0.651-0.109 0.99-0.766 0.99z"/>
+              </svg>
+            </div>
+            <div class="questions__messanger-item">
+              <svg class="svg-size" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path class="bottom-svg" d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+              </svg>
+            </div>
+            <div class="questions__messanger-item">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" class="svg-size-whats" viewBox="0 0 32 32">
+                <path class="bottom-svg" d="M23.479 8.434c-1.998-2.002-4.652-3.101-7.481-3.101-5.831 0-10.574 4.743-10.574 10.57-0.004 1.865 0.484 3.685 1.41 5.285l-1.501 5.479 5.608-1.472c1.543 0.844 3.283 1.286 5.053 1.29h0.004c5.827 0 10.57-4.743 10.574-10.574 0-2.824-1.096-5.479-3.093-7.477zM21.171 19.682c-0.219 0.616-1.298 1.212-1.782 1.253-0.488 0.045-0.943 0.219-3.172-0.657-2.688-1.058-4.383-3.813-4.516-3.99-0.133-0.174-1.075-1.431-1.075-2.73 0-1.303 0.682-1.94 0.922-2.204 0.244-0.264 0.53-0.331 0.707-0.331 0.174 0 0.352 0 0.504 0.008 0.191 0.004 0.397 0.017 0.595 0.455 0.236 0.521 0.749 1.828 0.815 1.96s0.112 0.29 0.021 0.463c-0.087 0.178-0.133 0.285-0.26 0.442-0.133 0.153-0.277 0.343-0.397 0.459-0.133 0.133-0.269 0.277-0.116 0.541s0.682 1.129 1.468 1.828c1.009 0.901 1.861 1.178 2.125 1.311s0.418 0.112 0.571-0.066c0.157-0.174 0.661-0.769 0.839-1.034 0.174-0.264 0.352-0.219 0.591-0.133 0.244 0.087 1.543 0.728 1.807 0.86s0.438 0.198 0.504 0.306c0.066 0.112 0.066 0.641-0.153 1.257l0.002 0.002z"></path>
+              </svg>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="footer__boundered">
+        <div class="footer__wrapper">
+          <a href="https://axas.ru/"><img src="./assets/axas.png" alt="" class="footer__logo"></a>
+          <div class="footer__tel base-text-subtext">
+            8-(123)-456-78-90
+          </div>
+          <div class="footer__mail base-text-mini-text">
+            Axasmail@gml.ru
+          </div>
+          <div class="footer__item">
+            <div class="footer__item-link base-text-mini-text">Политика конфиденциальности</div>
+            <div class="footer__item-link base-text-mini-text">г.Краснодар, ул. Монтажников 1/4, 12 эт., оф. 1205</div>
+            <div class="footer__item-link base-text-mini-text">© 2017-2022 «Аксас»</div>
+            <div class="footer__item-link base-text-mini-text">Все права защищены</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/animation-main.js"></script>
+  <script src="./scripts/slider-rates.js"></script>
+</html>

@@ -1,0 +1,146 @@
+.perfect {
+  margin-bottom: 150px;
+  &__wrapper {
+    max-width: 1005px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    color: #2F4D6A;
+    margin-bottom: 81px;
+  }
+
+  &__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__bondered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.perfect-bg{
+  position: absolute;
+  width: 100%;
+  opacity: 0.5;
+}
+.perfect-block {
+  width: 474px;
+  display: flex;
+  margin-bottom: 45px;
+  border-radius: 33px;
+  &__left {
+    position: absolute;
+    width: 10%;
+    padding: 25px 18px;
+    font-size: 20px;
+  }
+
+  &__right {
+    width: 100%;
+  }
+}
+.perfect-block-last{
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.perfect-last-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 36px;
+  color: #2F4D6A;
+}
+.perfect-btn {
+  color: white;
+  cursor: pointer;
+  height: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.base-text-for-block{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.mr{
+  margin-right: 30px;
+}
+@media screen and(max-width:1200px) {
+    .perfect {
+      margin-bottom: 100px;
+    }
+  .perfect-block {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .perfect{
+    margin-bottom: 80px;
+    &__title {
+      margin-bottom: 50px;
+    }
+  }
+  .perfect-block {
+    width: 350px;
+  }
+  .base-text-for-block{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:730px){
+  .mr {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width:540px){
+  .perfect {
+    margin-bottom: 30px;
+    &__wrapper{
+      padding: 0 20px;  
+    }
+      &__title {
+        margin-bottom: 30px;
+      }
+    }
+  &__blocks {
+    flex-wrap: nowrap;
+  }
+  .mr{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .perfect-block {
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    &__right {
+      height: 150px;
+    }
+  }
+  .base-text-for-block{
+    font-size: 12px;
+  }
+  .perfect-block__left{
+    padding: 13px;
+  }
+  .perfect-last-text{
+    font-size: 14px;
+  }
+  .perfect-btn{
+    font-size: 14px;
+    padding: 6px 0;
+    border-radius: 50px;
+    height: 25px;
+  }
+}

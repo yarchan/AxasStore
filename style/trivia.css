@@ -1,0 +1,167 @@
+.trivia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 173px;
+}
+
+.trivia__boundered {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.trivia__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 125px 0 67px;
+}
+
+.trivia__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.trivia__block:last-child {
+  margin-bottom: 0;
+}
+
+.trivia__img {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.trivia__img img {
+  max-width: 100%;
+}
+
+.trivia__description {
+  width: 50%;
+}
+
+.trivia .trivia-second-block {
+  padding: 0 80px;
+  width: calc(50% - 80px);
+}
+
+.trivia__title {
+  color: #2F4D6A;
+  margin-bottom: 56px;
+}
+
+.trivia__subtitle {
+  color: #2F4D6A;
+}
+
+.trivia__item-link {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.trivia__item-link:last-child {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.trivia__check {
+  margin-right: 16px;
+}
+
+.trivia__text {
+  color: #2F4D6A;
+  width: 60%;
+}
+
+@media screen and (max-width: 1100px) {
+  .trivia__wrapper {
+    padding: 0 20px;
+  }
+  .trivia__title {
+    margin-bottom: 20px;
+  }
+  .trivia__text {
+    width: 100%;
+  }
+  .trivia__item-link {
+    margin-bottom: 15px;
+  }
+  .trivia__check img {
+    width: 30px;
+  }
+  .trivia .trivia-second-block {
+    padding: 0 40px;
+    width: calc(50% - 40px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .trivia {
+    margin-bottom: 100px;
+  }
+  .trivia__wrapper {
+    padding: 0 20px;
+  }
+  .trivia__title {
+    margin-bottom: 10px;
+  }
+  .trivia__text {
+    width: 100%;
+  }
+  .trivia__item-link {
+    margin-bottom: 10px;
+  }
+  .trivia__check img {
+    width: 20px;
+  }
+  .trivia .trivia-second-block {
+    padding: 0 20px;
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .trivia {
+    margin-bottom: 50px;
+  }
+  .trivia__wrapper {
+    padding: 0 20px;
+  }
+  .trivia__title {
+    margin-bottom: 15px;
+  }
+  .trivia__text {
+    width: 100%;
+  }
+  .trivia__item-link {
+    margin-bottom: 5px;
+  }
+  .trivia__check {
+    margin-right: 10px;
+  }
+  .trivia__check img {
+    width: 20px;
+  }
+  .trivia__block:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .trivia__img {
+    margin-bottom: 10px;
+    margin-right: 0;
+    width: 100%;
+  }
+  .trivia__description {
+    width: 100%;
+  }
+  .trivia__block {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .trivia .trivia-second-block {
+    width: 100%;
+  }
+}

@@ -1,0 +1,167 @@
+.trivia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 173px;
+  &__boundered {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 125px 0 67px;
+
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  &__block:last-child {
+    margin-bottom: 0;
+  }
+
+  &__img {
+    margin-right: 20px;
+    width: 50%;
+  }
+  &__img img {
+    max-width: 100%;
+  }
+
+  &__description {
+    width: 50%;
+  }
+  .trivia-second-block{
+    padding: 0 80px;
+    width: calc(50% - 80px);
+  }
+
+
+  &__title {
+    color:#2F4D6A;
+    margin-bottom: 56px;
+  }
+  &__subtitle{
+    color:#2F4D6A;
+  }
+  &__item {
+
+  }
+
+  &__item-link {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__item-link:last-child {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  &__check {
+    margin-right: 16px;
+  }
+
+  &__text {
+    color:#2F4D6A;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width:1100px)  {
+  .trivia{
+    &__wrapper{
+      padding: 0 20px;
+    }
+    &__title {
+      
+      margin-bottom: 20px;
+    }
+    &__text {
+      width: 100%;
+    }
+    &__item-link {
+      margin-bottom: 15px;
+    }
+    &__check img {
+      width: 30px;
+    }
+    .trivia-second-block{
+      padding: 0 40px;
+      width: calc(50% - 40px);
+    }
+  }
+}
+@media screen and (max-width:800px)  {
+  .trivia{
+    margin-bottom: 100px;
+    &__wrapper{
+      padding: 0 20px;
+    }
+    &__title {
+      margin-bottom: 10px;
+    }
+    &__text {
+      width: 100%;
+    }
+    &__item-link {
+      margin-bottom: 10px;
+    }
+    &__check img {
+      width: 20px;
+    }
+    .trivia-second-block{
+      padding: 0 20px;
+      width: calc(50% - 20px);
+    }
+  }
+}
+@media screen and (max-width:600px)  {
+  .trivia{
+    margin-bottom: 50px;
+    &__wrapper{
+      padding: 0 20px;
+    }
+    &__title {
+      margin-bottom: 15px;
+    }
+    &__text {
+      width: 100%;
+    }
+    &__item-link {
+      margin-bottom: 5px;
+    }
+    &__check { 
+      margin-right: 10px;    
+    }
+    &__check img {
+      width: 20px;
+    }
+    &__block:nth-child(2) {
+      flex-direction: column-reverse;
+    }
+    &__img{
+      margin-bottom: 10px;
+      margin-right: 0;
+      width: 100%;
+    }
+    &__description{
+      width: 100%;
+    }
+    &__block {
+      flex-direction: column;
+      margin-bottom: 40px;
+    }
+    .trivia-second-block{
+      width: 100%;
+    }
+  }
+}

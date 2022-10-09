@@ -1,0 +1,124 @@
+.why {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 171px;
+  &__boundered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  &__item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__img {
+    background:#329CCA;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    z-index: 1;
+  }
+
+
+  &__subtitle {
+    color: #2F4D6A;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    padding: 0 60px;
+    text-align: center;
+    color:#2F4D6A ;
+  }
+
+  &__line{
+    width: 68%;
+    max-width: 1000px;
+    position: absolute;
+    height: 3px;
+    background: #329CCA;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .why{
+    &__title{
+      margin-bottom: 40px;
+    }
+    &__line {
+      margin-top: 30px;
+    }
+    &__img {
+      width: 60px;
+    }
+    &__description {
+      padding: 0 20px;
+    }
+  }
+}
+@media screen and (max-width:800px) {
+  .why{
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width:600px) {
+  .why{
+    margin-bottom: 50px;
+    &__item{
+      flex-wrap: wrap;
+    }
+    &__item-link{
+      width: 50%;
+      margin-bottom: 30px;
+    }
+    &__wrapper{
+      padding:  0 20px;
+    }
+    &__title{
+      margin-bottom: 20px;
+    }
+    &__description {
+      padding: 0 20px;
+      text-align: center;
+    }
+    &__line {
+      margin-top: 20px;
+      width: 50%;
+    }
+    &__img {
+      width: 40px;
+    }
+    &__description {
+      padding: 0 10px;
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.start {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
+  &__boundered{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+  }
+  &__wrapper {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+  }
+
+  &__block:first-child {
+    padding-left:70px ;
+    width: calc(50% - 70px);
+  }
+  &__block {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+  }
+  &__block:last-child {
+    align-items: center;
+  }
+  
+  &__title {
+    text-align: start;
+    color: #329CCA;
+  }
+
+  &__subtitle {
+    color: #329CCA;
+    margin-bottom: 88px;
+  }
+
+  &__btn {
+    cursor: pointer;
+    color: white;
+    padding: 22px 116px 21px 117px;
+    background: #329CCA;
+    border-radius: 76px;
+  }
+
+  
+  &__img:first-child {
+    position: absolute;
+    max-width: 665px;
+    width: 50%;
+  }
+  &__img:last-child {
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .start{
+    &__block:first-child {
+      padding-left:40px ;
+      width: calc(50% - 40px);
+    }
+  }
+  .start{
+    padding-top: 0px;
+  }
+  .start__img:last-child{
+    width: 350px;
+  }
+}
+@media screen and (max-width:800px) {
+  .start__btn{
+    padding: 12px  60px;
+  }
+  .start{
+    margin-bottom: 50px;
+    padding-top: 0px;
+  }
+  .start__img:last-child{
+    width: 300px;
+  }
+  &__block:first-child {
+    padding-left:40px ;
+    width: calc(50% - 40px);
+  }
+}
+@media screen and (max-width:600px) {
+  .start{
+    &__wrapper {
+        padding-top: 40px;
+      }
+    &__block:first-child {
+      padding-left:20px ;
+      width: calc(50% - 20px);
+    }
+  }
+  .start__subtitle{
+    margin-bottom: 40px;
+  }
+  .start{
+    margin-bottom: 30px;
+    padding-top: 0px;
+  }
+  .start__img:last-child{
+    width: 200px;
+  }
+}
+@media screen and (max-width:500px) {
+  .start{
+    padding-top: 0px;
+  }
+  .start__subtitle{
+    margin-bottom: 30px;
+  }
+  .start__img:last-child{
+    width: 200px;
+  }
+}
+@media screen and (max-width:400px) {
+  .start{
+    padding-top: 0px;
+    &__title{
+      margin-bottom: 10px;
+    }
+  }
+  .start__btn{
+    padding: 5px 50px;
+  }
+  .start__subtitle{
+    margin-bottom: 30px;
+  }
+  .start__img:last-child{
+    width: 180px;
+  }
+}

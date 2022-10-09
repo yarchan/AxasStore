@@ -1,0 +1,133 @@
+.grow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 190px;
+  &__boundered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 190px 0 170px;
+  }
+
+  &__block {
+    display: flex;
+  }
+  &__block-content{
+    width: 60%;
+  }
+  &__title {
+    color: #2F4D6A;
+    margin-bottom: 8px;
+  }
+
+  &__subtitle {
+    margin-bottom: 56px;
+    color:#2F4D6A;
+  }
+  &__item {
+  }
+
+  &__item-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+    color:#2F4D6A;
+  }
+  &__point{
+    padding: 2.5px !important;
+    margin-left: 2px;
+    margin-right: 17px;
+    border-radius: 50%;
+    background: #329CCA;
+  }
+  &__text{
+    
+  }
+
+  &__img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:1000px) {
+
+  .grow{
+    &__wrapper{
+      padding: 0 40px;
+    }
+    &__img img {
+      width: 200px;
+    }
+    &__img {
+      justify-content:center;
+    }
+  }
+}
+@media screen and (max-width:800px) {
+
+  .grow{
+    margin-bottom: 100px;
+    &__subtitle{
+      margin-bottom: 20px;
+    }
+    &__item-link{
+      margin-bottom: 8px;
+    }
+    &__wrapper{
+      padding: 0 40px;
+    }
+    &__img img {
+      width: 150px;
+    }
+  }
+}
+@media screen and (max-width:600px) {
+  .grow{
+    margin-bottom: 50px;
+    &__block{
+      flex-direction: column;
+    }
+    &__block-content{
+      width: 100%;
+    }
+    &__img {
+      width: 100%;
+    }
+    &__img img{
+      width: 50%;
+    }
+    &__subtitle{
+      margin-bottom: 10px;
+    }
+    &__item-link{
+      margin-bottom: 5px;
+    }
+    &__wrapper{
+      padding: 0 40px;
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .grow{
+    &__wrapper{
+      padding: 0 20px;
+    }
+
+    // &__img img {
+    //   width: 100px;
+    // }
+  }
+}
